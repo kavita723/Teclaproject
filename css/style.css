@@ -1,0 +1,422 @@
+/* header-start */
+   body{
+     padding-top: 80px; /* space for fixed navbar */
+
+   }
+
+    .navbar-nav .nav-link {
+      font-weight: 600;
+      padding: 10px 15px;
+    }
+
+    .whatsapp-icon {
+      font-size: 22px;
+      color: white;
+      background-color: #25D366;
+      border-radius: 50%;
+      padding: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .navbar-brand img {
+      height: 70px;
+    }
+
+    .navbar {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    /* Hover dropdown on desktop */
+    @media (min-width: 992px) {
+      .navbar .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+      }
+
+      .nav-item {
+        margin: 0 5px;
+      }
+    }
+
+    @media (max-width: 991px) {
+      .whatsapp-icon {
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: 15px;
+      }
+      .navbar-nav {
+        padding-left: 15px;
+      }
+    }
+    /* header-end */
+    /* slide start */
+     .scooter-image {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .price-section {
+      font-size: 20px;
+    }
+
+    .old-price {
+      text-decoration: line-through;
+      color: red;
+      font-weight: bold;
+    }
+
+    .new-price {
+      color: #00ffcc;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .buy-btn {
+      background-color: #00cc00;
+      color: white;
+      border: none;
+      padding: 10px 25px;
+      font-size: 18px;
+      border-radius: 30px;
+      margin-top: 15px;
+    }
+
+    .feature-box {
+      background: white;
+      color: #0047ab;
+      padding: 20px;
+      border-radius: 10px;
+      margin: 10px;
+      text-align: center;
+      font-weight: bold;
+    }
+   
+     
+    
+    /* icon end */
+       .number-badge {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      color: #fff;
+      text-align: center;
+      line-height: 30px;
+      font-weight: bold;
+      margin-right: 10px;
+      transition: transform 0.3s;
+    }
+
+    .number-badge:hover {
+      transform: scale(1.2);
+    }
+
+    .blue-badge {
+      background-color: #0056b3;
+    }
+
+    .black-badge {
+      background-color: #000;
+    }
+
+    .section-title {
+      font-weight: bold;
+      margin-top: 20px;
+    }
+
+    @media (min-width: 768px) {
+      .extra-space {
+        padding-left: 80px; /* you can increase this if needed */
+      }
+    }
+    .carousel-item img {
+      height: 250px;
+      object-fit: cover;
+    }
+    
+    /* buynow start */
+     .product-card {
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.07);
+      padding: 20px;
+      transition: transform 0.3s;
+      height: 100%;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .product-img {
+      width: 100%;
+      height: 230px;
+      object-fit: contain;
+      margin-bottom: 15px;
+    }
+
+    .price-old {
+      text-decoration: line-through;
+      color: red;
+      font-size: 16px;
+    }
+
+    .price-badge {
+      background-color: #d9e6fb;
+      color: #0a58ca;
+      font-size: 13px;
+      padding: 3px 8px;
+      border-radius: 6px;
+      margin: 0 5px;
+    }
+
+    .price-new {
+      font-size: 20px;
+      font-weight: bold;
+      color: #000;
+    }
+
+    .features-list {
+      text-align: left;
+      margin-top: 10px;
+    }
+
+    .features-list li {
+      margin-bottom: 6px;
+      font-size: 15px;
+    }
+
+    .features-list i {
+      color: #0a58ca;
+      margin-right: 8px;
+    }
+
+    .buy-btn {
+      margin-top: 15px;
+      background-color: #0a58ca;
+      color: white;
+      border-radius: 30px;
+      padding: 8px 22px;
+    }
+
+    .product-title {
+      font-weight: 600;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    /* end buynow */
+    /* text img start*/
+     .feature-box {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 30px;
+    }
+    .feature-icon {
+      width: 50px;
+      height: 50px;
+      padding: 10px;
+      border-radius: 10px;
+    }
+    .blue-box {
+      background-color: #007bff;
+    }
+    .dark-box {
+      background-color: #333;
+    }
+    .feature-text h5 {
+      font-weight: bold;
+    }
+    .center-image {
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+    .feature-number {
+      font-weight: 500;
+      color: #aaa;
+    }
+     /* text img end*/
+     /* slideimgstart */
+     .carousel-item img {
+      height: 250px;
+      object-fit: cover;
+    }
+
+    /* Arrow button background and color */
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      background-color: blue;
+      border-radius: 50%;
+      padding: 15px;
+      background-size: 70% 70%;
+    }
+
+    /* Move arrows to image edge */
+    .carousel-control-prev,
+    .carousel-control-next {
+      width: auto;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .carousel-control-prev {
+      left: -50px; /* Push left */
+    }
+
+    .carousel-control-next {
+      right: -50px; /* Push right */
+    }
+
+    @media (max-width: 768px) {
+      .carousel-control-prev {
+        left: -20px;
+      }
+      .carousel-control-next {
+        right: -20px;
+      }
+    }
+    /* endslide */
+    /* smevoimgstart */
+    .quote-section {
+      background-color: #0052a0; /* Deep Blue */
+      color: white;
+      padding: 40px;
+      height: 100%;
+      position: relative;
+    }
+
+    .quote-text {
+      font-size: 1.2rem;
+      font-weight: 500;
+    }
+
+    .quote-icon {
+      font-size: 2rem;
+      margin-bottom: 15px;
+      display: inline-block;
+    }
+
+    .whatsapp-icon {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: white;
+      border-radius: 50%;
+      width: 45px;
+      height: 45px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      text-decoration: none;
+    }
+
+    .img-fluid {
+      max-width: 100%;
+      height: auto;
+    }
+
+    @media (max-width: 767px) {
+      .quote-section {
+        padding: 20px;
+        text-align: center;
+      }
+    }
+    /* end */
+    /* tayarstrat */
+    #scroll{
+      background: linear-gradient(to right, #e3eaf2, #ffffff);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .section-title {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-top: 40px;
+    }
+    .badge-tech {
+      background-color: #0052cc;
+      color: white;
+      padding: 5px 15px;
+      border-radius: 20px;
+      font-weight: bold;
+    }
+    .feature-card {
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      transition: 0.3s ease;
+      background: white;
+      height: 100%;
+    }
+    .feature-card:hover {
+      transform: scale(1.05);
+      opacity: 0.9;
+    }
+    .feature-img {
+      width: 100%;
+      height: 150px;
+      object-fit: contain;
+    }
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 100;
+    }
+    .scroll-left-text {
+      writing-mode: vertical-lr;
+      transform: rotate(180deg);
+      font-weight: bold;
+      position: absolute;
+      left: 10px;
+      top: 50%;
+      transform: translateY(-50%) rotate(180deg);
+    }
+    /* end */
+    /* startmarque */
+     /* #top{
+      background: linear-gradient(to bottom right, #e0e0e0, #ffffff);
+      font-family: 'Segoe UI', sans-serif;
+    } */
+    .top-bar {
+      background-color: #004a99;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+    .top-bar span {
+      margin: 0 30px;
+      display: inline-block;
+    }
+    .faq-section {
+      padding: 50px 20px;
+    }
+    .faq-section h2 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+    .faq-question {
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+    .accordion-button:not(.collapsed) {
+      background-color: #f0f0f0;
+      color: #000;
+    }
+    .scroll-to-top {
+      writing-mode: vertical-lr;
+      transform: rotate(180deg);
+      position: absolute;
+      left: 0;
+      top: 50%;
+      font-size: 0.8rem;
+      color: #444;
+    }
